@@ -1,0 +1,16 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./resource/readtheorg.css" />
+#+TITLE: free-math
+#+OPTIONS:   ^:{} 
+#+LANGUAGE: zh-CN
+
+zhcosin 的个人主页.
+
+* 数学
+  
+** 笔记
+
+** 工具软件
+
+* 计算机
+
+* 历史/古典文学
