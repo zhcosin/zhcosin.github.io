@@ -76,8 +76,9 @@ E-mail: zhcosin@163.com
    
 ** debian 系统 
 
-   一个自由的 =linux= 操作系统的发行版，旨在“自由软件”，这使我可以集中精力在自己的工作上，不受商业软件的广告或者弹窗干扰。下面是一些链接:
+   一个自由的 =linux= 操作系统的发行版，旨在“自由软件”，具备出色的稳定性，是个常年不需要重启的服务器操作系统。我正致力于打造基于 =debian= 的自己的稳定的工作环境，下面是一些相关链接:
    - [[https://www.debian.org/][debian 官网]]
+   - [[https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html][debian 参考手册]]
    - [[https://www.debiancn.org/][debian 中文社区]]
      
 ** vim 与 Emacs
