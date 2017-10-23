@@ -20,7 +20,6 @@ E-mail: zhcosin@163.com
      - 《几何瑰宝》 沈文选，杨清桃. 哈尔滨工业大学出版社.
      - 《圆锥曲线论》 [古希腊]阿波罗尼奥斯. 陕西科学技术出版社.
      - [[http://kuing.orzweb.net/viewthread.php?tid%3D3757&extra%3Dpage%253D1][《kuing 网络撸题集》]] kuing. 网络电子书
-     - [[https://en.wikipedia.org/wiki/Main_Page][英文维基百科]]  数学知识百科全书
        
   2. 代数
      - 《高等代数》 北京大学几何与代数教研室前代数小组. 高等教育出版社.
@@ -52,6 +51,7 @@ E-mail: zhcosin@163.com
 ** 一些有用的链接
   
   - [[http://kuing.orzweb.net/viewthread.php?tid%3D3757&extra%3Dpage%253D1][悠闲数学娱乐论坛]]
+  - [[https://en.wikipedia.org/wiki/Main_Page][英文维基百科]]  数学知识百科全书
 
 ** 数学类软件
    
@@ -83,10 +83,12 @@ E-mail: zhcosin@163.com
 ** vim 与 Emacs
 
    一个是编辑器之神，一个是神之编辑器，作为两大黑客级别的编辑器，弥漫于两者忠实粉丝之间的“圣战”战火波及到了互联网上所有与编辑器有关的页面上。 =Vim= 的模式编辑方式非常高效，但它的扩展语言 =VimScript= 不如 =Emacs Lisp= 强大，因为后者从属于 =Lisp= 语言族，是一门语法简单但表现力强大的语言， =Emacs= 本质上就是一个编程平台。得益于 =Emacs= 的可扩展性，我使用 =evil= 在 =Emacs= 中来模拟 =Vim= 的编辑方式，这使得工作效率相当高。
+   
+   另外 =Emacs= 自带的 =org-mode= 模式是一个比 =markdown= 功能更加丰富的文档写作工具，并且得益于 =Emacs Lisp= ，具备高度可定制性，是写作笔记的利器，我用它写作日常文档，包括本页面也是用 =org-mode= 生成的。
    - [[http://www.vim.org/][vim 官网]]
    - [[https://www.gnu.org/software/emacs/][Emacs 官网]]
    - [[https://emacs-china.org/][Emacs 中文社区]]
-     
+   - [[http://www.fuzihao.org/blog/2015/02/19/org-mode%25E6%2595%2599%25E7%25A8%258B/][org-mode 入门教程]]     
 ** Git
 
    =Git= 是一个分布式版本管理软件，由 =linux= 之父 =Linus Torvalds= 亲手设计和实现，而围绕它的 =GitHub= 网站已经成为全世界的开源项目的集散地，国内也有 =coding.net= 这样的优秀的 =Git= 代码托管平台。我用 =Git= 维护我的所有重要的文档，包括数学笔记、博客文章、软件以及系统的重要配置文件，包括本页面也被纳入 =Git= 的管理之下。
