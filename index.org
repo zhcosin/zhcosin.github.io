@@ -16,7 +16,7 @@ E-mail: zhcosin@163.com
    
   1. 初等数学
      - 《不等式的秘密》 [越南]范建熊，隋振林(译). 哈尔滨工业大学出版社.
-     - 《几何瑰宝》 沈从文，杨清桃. 哈尔滨工业大学出版社.
+     - 《几何瑰宝》 沈文选，杨清桃. 哈尔滨工业大学出版社.
      - 《圆锥曲线论》 [古希腊]阿波罗尼奥斯. 陕西科学技术出版社.
      - [[http://kuing.orzweb.net/viewthread.php?tid%3D3757&extra%3Dpage%253D1][《kuing 网络撸题集》]] kuing. 网络电子书
      - [[https://en.wikipedia.org/wiki/Main_Page][英文维基百科]]  数学知识百科全书
