@@ -6,7 +6,8 @@
 
 这里是我(zhcosin)的个人主页，欢迎光临。
 
-[[https://github.com/zhcosin][我的 GitHub 主页]]
+我的 =GitHub= 主页: [[https://github.com/zhcosin]]
+我的 =coding.net= 主页: [[https://coding.net/u/zhcosin/project]]
 
 E-mail: zhcosin@163.com
 
@@ -59,6 +60,7 @@ E-mail: zhcosin@163.com
       
       =LaTeX= 是一个专业的科技论文、图书排版系统，其排版的数学公式尤其精美，是当今科技排版的标准，我的数学笔记都是用它排版的。下面是一些相关的链接:
       - [[https://www.latex-project.org/][LaTeX 官网]]
+      - [[http://mirrors.ustc.edu.cn/CTAN/info/lshort/chinese/lshort-zh-cn.pdf][一份不太简短的 LaTeX2e介绍]]
       - [[http://www.latexstudio.net/][LaTeX 工作室]]
    
    2. TeXmacs
@@ -67,28 +69,35 @@ E-mail: zhcosin@163.com
       - [[http://www.texmacs.org/tmweb/home/welcome.en.html][TeXmacs 官网]]
       - [[http://www.yinwang.org/blog-cn/2012/09/18/texmacs][一个真正所见即所得的排版系统]]
       - [[http://x-wei.github.io/TeXmacs_intro.html][学术文章写作利器 - TeXmacs 介绍]]
+      - [[https://github.com/zhcosin/introduction-docs/blob/master/introduction-texmacs/introduction-texmacs.org][使用 TeXmacs 写作数学文档]]
 
    3. Maxima
 
       一个计算机代数系统，类似于 =Mathematica=.
+      
+   4. 关于数学文档的写作
+
+      - [[https://github.com/zhcosin/introduction-docs/blob/master/introduction-to-mathdoc-writer/introduction-to-mathdoc-writer.org][数学文档写作工具介绍]]
 
 * 计算机
    
 ** debian 系统 
 
-   一个自由的 =linux= 操作系统的发行版，旨在“自由软件”，具备出色的稳定性，是个常年不需要重启的服务器操作系统。我正致力于打造基于 =debian= 的自己的稳定的工作环境，下面是一些相关链接:
+   一个自由的 =linux= 操作系统的发行版，旨在“自由软件”，具备出色的稳定性，是个常年不需要重启的服务器操作系统。我正致力于打造基于 =debian= 的稳定工作环境，下面是一些相关链接:
    - [[https://www.debian.org/][debian 官网]]
    - [[https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html][debian 参考手册]]
    - [[https://www.debiancn.org/][debian 中文社区]]
      
 ** vim 与 Emacs
 
-   一个是编辑器之神，一个是神之编辑器，作为两大黑客级别的编辑器，弥漫于两者忠实粉丝之间的“圣战”战火波及到了互联网上所有与编辑器有关的页面上。 =Vim= 的模式编辑方式非常高效，但它的扩展语言 =VimScript= 不如 =Emacs Lisp= 强大，因为后者从属于 =Lisp= 语言族，是一门语法简单但表现力强大的语言， =Emacs= 本质上就是一个编程平台。得益于 =Emacs= 的可扩展性，我使用 =evil= 在 =Emacs= 中来模拟 =Vim= 的编辑方式，这使得工作效率相当高。
+   一个是编辑器之神，一个是神之编辑器，作为两大黑客级别的编辑器，弥漫于两者忠实粉丝之间的“圣战”战火波及到了互联网上所有与编辑器有关的页面。 =Vim= 的模式编辑方式非常高效，但它的扩展语言 =VimScript= 不如 =Emacs Lisp= 强大，因为后者从属于 =Lisp= 语言族，是一门语法简单但表现力强大的语言， =Emacs= 本质上就是一个编程平台。得益于 =Emacs= 的可扩展性，我使用 =evil= 在 =Emacs= 中来模拟 =Vim= 的编辑方式，这使得工作效率相当高。
    
    另外 =Emacs= 自带的 =org-mode= 模式是一个比 =markdown= 功能更加丰富的文档写作工具，并且得益于 =Emacs Lisp= ，具备高度可定制性，是写作笔记的利器，我用它写作日常文档，包括本页面也是用 =org-mode= 生成的。
    - [[http://www.vim.org/][vim 官网]]
    - [[https://www.gnu.org/software/emacs/][Emacs 官网]]
+   - [[http://www.cnblogs.com/babe/archive/2012/04/11/2441620.html][钗黛双收：若你也同Vim难割舍，却又看Emacs情切切]]
    - [[https://emacs-china.org/][Emacs 中文社区]]
+   - [[http://book.emacs-china.org/][21 天掌握 Emacs]]
    - [[http://www.fuzihao.org/blog/2015/02/19/org-mode%25E6%2595%2599%25E7%25A8%258B/][org-mode 入门教程]]     
 ** Git
 
