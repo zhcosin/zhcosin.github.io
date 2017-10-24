@@ -4,10 +4,11 @@
 #+OPTIONS:   ^:{} 
 #+LANGUAGE: zh-CN
 
-这里是我(zhcosin)的个人主页，欢迎光临。
+  这里是我(zhcosin)的个人主页，欢迎光临。
 
-我的 =GitHub= 主页: [[https://github.com/zhcosin]]
-我的 =coding.net= 主页: [[https://coding.net/u/zhcosin/project]]
+  我的 =GitHub= 主页: [[https://github.com/zhcosin]]
+
+  我的 =coding.net= 主页: [[https://coding.net/u/zhcosin/project]]
 
 E-mail: zhcosin@163.com
 
