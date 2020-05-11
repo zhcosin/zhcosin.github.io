@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN">
 <head>
-<!-- 2019-11-27 周三 20:09 -->
+<!-- 2020-05-11 周一 11:14 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>手动档驾驶技术基础</title>
@@ -236,46 +236,65 @@ for the JavaScript code in this tag.
 <h2>&#30446;&#24405;</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org55947f2">1. 内燃机</a>
+<li><a href="#org23fedfd">1. 引言</a></li>
+<li><a href="#orgc189a21">2. 内燃机</a>
 <ul>
-<li><a href="#org37bfea2">1.1. 奥托循环</a></li>
-<li><a href="#org7e78f1d">1.2. 自然吸气与涡轮增压</a></li>
-<li><a href="#org4c47496">1.3. 扭矩与功率</a></li>
+<li><a href="#org7e044bc">2.1. 奥托循环</a></li>
+<li><a href="#org9c80569">2.2. 自然吸气与涡轮增压</a></li>
+<li><a href="#org6d0cc13">2.3. 扭矩与功率</a></li>
 </ul>
 </li>
-<li><a href="#orgc6730a9">2. 变速器</a>
+<li><a href="#org9492a75">3. 变速器</a>
 <ul>
-<li><a href="#orgb8f5ecd">2.1. 手动变速器与档位</a></li>
-<li><a href="#orgdef66dd">2.2. 离合器与半联动</a></li>
-<li><a href="#org6892bac">2.3. 自动变速器</a></li>
+<li><a href="#orgaa0d949">3.1. 手动变速器与档位</a></li>
+<li><a href="#orgf1390bb">3.2. 离合器与半联动</a></li>
+<li><a href="#org519cc1c">3.3. 自动变速器</a></li>
 </ul>
 </li>
-<li><a href="#org7a210c9">3. 油离配合</a>
+<li><a href="#org2b7842c">4. 油离配合</a>
 <ul>
-<li><a href="#org235647a">3.1. 平路起步</a></li>
-<li><a href="#org46301e9">3.2. 坡道起步</a></li>
-<li><a href="#orgffb75a6">3.3. 弹射起步</a></li>
+<li><a href="#org7b2675c">4.1. 平路起步</a></li>
+<li><a href="#orgfca602d">4.2. 坡道起步</a></li>
+<li><a href="#orgd44a297">4.3. 弹射起步</a></li>
 </ul>
 </li>
-<li><a href="#org90408ac">4. 转速匹配</a>
+<li><a href="#orgf9988da">5. 转速匹配</a>
 <ul>
-<li><a href="#org6db1b55">4.1. 降档补油</a></li>
-<li><a href="#orge093683">4.2. 升档</a></li>
-<li><a href="#orgc65500b">4.3. 时速与转速的数学关系</a></li>
-<li><a href="#orgdf2d070">4.4. 发动机制动</a></li>
-<li><a href="#orgbcd1a49">4.5. 两脚离合换档</a></li>
-<li><a href="#org47d55c6">4.6. 无离合换档</a></li>
+<li><a href="#org4199c9f">5.1. 降档补油</a></li>
+<li><a href="#orgf0e4f4e">5.2. 升档</a></li>
+<li><a href="#org22499f4">5.3. 时速与转速的数学关系</a></li>
+<li><a href="#org596a3a6">5.4. 发动机制动</a></li>
+<li><a href="#org108616e">5.5. 两脚离合换档</a></li>
+<li><a href="#org7896ab0">5.6. 无离合换档</a></li>
 </ul>
 </li>
-<li><a href="#orgd9eebca">5. 跟趾</a>
+<li><a href="#org7c70029">6. 跟趾</a>
 <ul>
-<li><a href="#org703c56a">5.1. 跟趾降档</a></li>
-<li><a href="#org6cf39f1">5.2. 跟趾起步</a></li>
+<li><a href="#orgba9d9f9">6.1. 跟趾降档</a></li>
+<li><a href="#org27f2c5d">6.2. 跟趾起步</a></li>
 </ul>
 </li>
+<li><a href="#orgb3ea3b3">7. 后记</a></li>
 </ul>
 </div>
 </div>
+
+<div id="outline-container-org23fedfd" class="outline-2">
+<h2 id="org23fedfd"><span class="section-number-2">1</span> 引言</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+文章信息:<br />
+</p>
+
+<ul class="org-ul">
+<li>网页版 <a href="https://zhcosin.github.io/car/manaual-car-driving.html">手动档驾驶技术基础</a> <br /></li>
+<li>pdf 文件 <a href="https://github.com/zhcosin/introduction-docs/blob/master/manaual-car-driving/manaual-car-driving.pdf">点此进入下载页面</a><br /></li>
+</ul>
+
+<p>
+除此以外，在其它平台(如知乎，QQ群等)的发布将不一定进行维护.<br />
+</p>
+
 <p>
 手动档开了一年，根据自己的知识和经验，对手动档驾驶所需要用到的一些技术作一些总结，这些技术有些是我会的，有些是我不会只知道是怎么回事的，例如无离合换档和跟趾，都按照我的理解记录下来，以后随着自己经验的积累，再进行修改。<br />
 </p>
@@ -283,14 +302,16 @@ for the JavaScript code in this tag.
 <p>
 本文以我的车八代思域五速手动作为参考车型，对前置前驱的自然吸气手动档车型也一般性适用.<br />
 </p>
-
-<div id="outline-container-org55947f2" class="outline-2">
-<h2 id="org55947f2"><span class="section-number-2">1</span> 内燃机</h2>
-<div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org37bfea2" class="outline-3">
-<h3 id="org37bfea2"><span class="section-number-3">1.1</span> 奥托循环</h3>
-<div class="outline-text-3" id="text-1-1">
+</div>
+
+<div id="outline-container-orgc189a21" class="outline-2">
+<h2 id="orgc189a21"><span class="section-number-2">2</span> 内燃机</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org7e044bc" class="outline-3">
+<h3 id="org7e044bc"><span class="section-number-3">2.1</span> 奥托循环</h3>
+<div class="outline-text-3" id="text-2-1">
 <p>
 现在主流的家用汽车发动机都是汽油发动机，所以本文所说的内燃机主要是指汽油发动机。家用汽车一般是四缸汽油发动机，豪华的有六缸、八缸乃至十缸发动机，而且现在三缸机也开始流行了，先来看一下发动机气缸的工作原理。<br />
 </p>
@@ -353,9 +374,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org7e78f1d" class="outline-3">
-<h3 id="org7e78f1d"><span class="section-number-3">1.2</span> 自然吸气与涡轮增压</h3>
-<div class="outline-text-3" id="text-1-2">
+<div id="outline-container-org9c80569" class="outline-3">
+<h3 id="org9c80569"><span class="section-number-3">2.2</span> 自然吸气与涡轮增压</h3>
+<div class="outline-text-3" id="text-2-2">
 <p>
 为了增强发动机的动力，可以让发动机气缸内吸入更多的油气混合物，这有两种思路，一是做大发动机的排量，这可以通过增大每个气缸的容积或者增加气缸数目甚至两者并用来实现，这发展出了大排量自然吸气发动机，六缸八缸乃至十二缸发动机，排量可以增大到 3.0L-6.0L 区间，另一个思路是让发动机吸入经过压缩后的油气混合物，这就是增压技术，主流的增压技术是涡轮增压和机械增压。<br />
 </p>
@@ -402,9 +423,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org4c47496" class="outline-3">
-<h3 id="org4c47496"><span class="section-number-3">1.3</span> 扭矩与功率</h3>
-<div class="outline-text-3" id="text-1-3">
+<div id="outline-container-org6d0cc13" class="outline-3">
+<h3 id="org6d0cc13"><span class="section-number-3">2.3</span> 扭矩与功率</h3>
+<div class="outline-text-3" id="text-2-3">
 <p>
 扭矩与功率是刻画发动机性能的两个重要参数，例如八代思域搭配的1.8自吸发动机在6500转时输出最大功率103千瓦，而在4300转时输出最大扭矩175牛米，这一节就来讲清这个问题。<br />
 </p>
@@ -471,9 +492,9 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-orgc6730a9" class="outline-2">
-<h2 id="orgc6730a9"><span class="section-number-2">2</span> 变速器</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-org9492a75" class="outline-2">
+<h2 id="org9492a75"><span class="section-number-2">3</span> 变速器</h2>
+<div class="outline-text-2" id="text-3">
 <p>
 变速器这个重要部件在消费者口中更多的是被称之为变速箱，我是倾向于称它为变速器的，因为这个“箱”字，体现的是人们不了解它的内部构造而笼统的将其理解为一个被金属外壳包裹起来的一个部件，而变速器这个名称，强调它是一个具备一定功能的机械部件，更符合它的定位，所以本文将以变速器呼之。<br />
 </p>
@@ -496,9 +517,9 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-orgb8f5ecd" class="outline-3">
-<h3 id="orgb8f5ecd"><span class="section-number-3">2.1</span> 手动变速器与档位</h3>
-<div class="outline-text-3" id="text-2-1">
+<div id="outline-container-orgaa0d949" class="outline-3">
+<h3 id="orgaa0d949"><span class="section-number-3">3.1</span> 手动变速器与档位</h3>
+<div class="outline-text-3" id="text-3-1">
 <p>
 变速箱是一套有几组齿轮的装置，有一个输入轴，有一个输出轴，有的变速箱还有一个中间轴，输入轴通过离合器与发动机飞轮相连接，输出轴通过差速器与车轮连接，变速箱的作用就是通过不同的齿轮组合来改变输入轴与输出轴的转速比，从而改变发动机转速与车速之比。<br />
 </p>
@@ -535,9 +556,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgdef66dd" class="outline-3">
-<h3 id="orgdef66dd"><span class="section-number-3">2.2</span> 离合器与半联动</h3>
-<div class="outline-text-3" id="text-2-2">
+<div id="outline-container-orgf1390bb" class="outline-3">
+<h3 id="orgf1390bb"><span class="section-number-3">3.2</span> 离合器与半联动</h3>
+<div class="outline-text-3" id="text-3-2">
 <p>
 离合器位于发动机与变速箱之间，是用来切断和恢复发动机向变速箱传入动力的部件，它由离合器片、压盘、分离轴承组成，如图所示:<br />
 </p>
@@ -563,9 +584,9 @@ for the JavaScript code in this tag.
 </div>
 
 
-<div id="outline-container-org6892bac" class="outline-3">
-<h3 id="org6892bac"><span class="section-number-3">2.3</span> 自动变速器</h3>
-<div class="outline-text-3" id="text-2-3">
+<div id="outline-container-org519cc1c" class="outline-3">
+<h3 id="org519cc1c"><span class="section-number-3">3.3</span> 自动变速器</h3>
+<div class="outline-text-3" id="text-3-3">
 <p>
 手动变速器的优点和缺点都是显而易见的，最大的优点是结构简单，所以成本较低，并且故障率极低易于维修，一般30-40万公里以后才有可能出现较大的问题，它的缺点是需要驾驶员手动完成换档操作，当然这是相对自动变速器而言的。<br />
 </p>
@@ -599,9 +620,9 @@ for the JavaScript code in this tag.
 
 
 
-<div id="outline-container-org7a210c9" class="outline-2">
-<h2 id="org7a210c9"><span class="section-number-2">3</span> 油离配合</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org2b7842c" class="outline-2">
+<h2 id="org2b7842c"><span class="section-number-2">4</span> 油离配合</h2>
+<div class="outline-text-2" id="text-4">
 <p>
 油离配合就是油门踏板与离合踏板相互配合以完成车辆起步。在车辆起步前，发动机处于怠速状态，约 700-800r/min，保持低转速以节约燃油，如果转速低于500-600r/min，则发动机将熄火。<br />
 </p>
@@ -619,9 +640,9 @@ for the JavaScript code in this tag.
 </p>
 </div>
 
-<div id="outline-container-org235647a" class="outline-3">
-<h3 id="org235647a"><span class="section-number-3">3.1</span> 平路起步</h3>
-<div class="outline-text-3" id="text-3-1">
+<div id="outline-container-org7b2675c" class="outline-3">
+<h3 id="org7b2675c"><span class="section-number-3">4.1</span> 平路起步</h3>
+<div class="outline-text-3" id="text-4-1">
 <p>
 在平路上起步时，在空档并且发动机怠速状态下，踩下离合挂一档，然后慢抬离合，到快接近结合点时，右脚给油到至少 1500r/min 并稳住油门，然后离合再继续慢松，车辆动起步之后把离合器完全放掉，继续给油门加速，起步完成。<br />
 </p>
@@ -632,9 +653,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org46301e9" class="outline-3">
-<h3 id="org46301e9"><span class="section-number-3">3.2</span> 坡道起步</h3>
-<div class="outline-text-3" id="text-3-2">
+<div id="outline-container-orgfca602d" class="outline-3">
+<h3 id="orgfca602d"><span class="section-number-3">4.2</span> 坡道起步</h3>
+<div class="outline-text-3" id="text-4-2">
 <p>
 坡道起步与平路起步是类似的，不同点在于车辆停在坡道上容易后溜，需要克服车辆的重力沿着下坡方向上的分力所带来的阻力。<br />
 </p>
@@ -669,9 +690,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgffb75a6" class="outline-3">
-<h3 id="orgffb75a6"><span class="section-number-3">3.3</span> 弹射起步</h3>
-<div class="outline-text-3" id="text-3-3">
+<div id="outline-container-orgd44a297" class="outline-3">
+<h3 id="orgd44a297"><span class="section-number-3">4.3</span> 弹射起步</h3>
+<div class="outline-text-3" id="text-4-3">
 <p>
 这种起步方式对离合片和轮胎损伤比较大，方法是在踩下离合后，给油到高转速(3000-4000r/min以上)，然后突然完全放开离合，车轮就会突然原地打滑然后迅速弹射出去。<br />
 </p>
@@ -683,9 +704,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org90408ac" class="outline-2">
-<h2 id="org90408ac"><span class="section-number-2">4</span> 转速匹配</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-orgf9988da" class="outline-2">
+<h2 id="orgf9988da"><span class="section-number-2">5</span> 转速匹配</h2>
+<div class="outline-text-2" id="text-5">
 <p>
 在正常行驶过程中，离合踏板牌完全放开状态，这时发动机的飞轮与车轮之间通过变速箱的齿轮咬合在一起，所以发动机转速与车轮转速之间是呈正比例关系的，对一台车来说，车轮转速跟车辆时速之间也是确定的比例关系，车轮单位时间内转过的圈数，乘以车轮的周长，就是车辆单位时间内行驶过的距离，因此，车辆时速也是与发动机转速呈正比例关系的，用公式表示就是<br />
 \[ n = k v \]<br />
@@ -723,9 +744,9 @@ for the JavaScript code in this tag.
 </p>
 </div>
 
-<div id="outline-container-org6db1b55" class="outline-3">
-<h3 id="org6db1b55"><span class="section-number-3">4.1</span> 降档补油</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-org4199c9f" class="outline-3">
+<h3 id="org4199c9f"><span class="section-number-3">5.1</span> 降档补油</h3>
+<div class="outline-text-3" id="text-5-1">
 <p>
 在降档时，发动机转速应抬高，以前面的图为例，在时速 60km/h 时四档对应 2100r/min,三档对应2700r/min，转速差是 600r/min， 如果要由四档退入三档，则转速应抬升 600r/min，人工实现这个转速抬升的方法是，在左脚踩下离合后进行挂档操作的同时，右脚踩一下油门，把转速踩到 2700r/min（这个动作称为补油），然后再松离合，这时由于离合器与发动机飞轮之间的转速大致吻合，滑动摩擦是很小的，所以车子的顿挫就会消失，车辆速度就不会有明显改变，从而达到车辆平稳行驶的目的。<br />
 </p>
@@ -744,9 +765,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orge093683" class="outline-3">
-<h3 id="orge093683"><span class="section-number-3">4.2</span> 升档</h3>
-<div class="outline-text-3" id="text-4-2">
+<div id="outline-container-orgf0e4f4e" class="outline-3">
+<h3 id="orgf0e4f4e"><span class="section-number-3">5.2</span> 升档</h3>
+<div class="outline-text-3" id="text-5-2">
 <p>
 在升档时，发动机转速会降低，同样以前面的图为例，在时速 60km/h 时由三档升入四档，发动机转速应由 2700r/min 降低到 2100r/min，那么可以在踩下离合踏板后，拨动档杆的同时等待发动机转速的自然回落，回落到快接近 2100r/min 时快速松开离合，即可完成升档动作。<br />
 </p>
@@ -757,9 +778,9 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgc65500b" class="outline-3">
-<h3 id="orgc65500b"><span class="section-number-3">4.3</span> 时速与转速的数学关系</h3>
-<div class="outline-text-3" id="text-4-3">
+<div id="outline-container-org22499f4" class="outline-3">
+<h3 id="org22499f4"><span class="section-number-3">5.3</span> 时速与转速的数学关系</h3>
+<div class="outline-text-3" id="text-5-3">
 <p>
 这一小节来讨论时速与转速的具体关联关系式，假如在某时刻，发动机的转速是 \(n\)，我们要计算车速 \(v\).<br />
 </p>
@@ -1233,9 +1254,9 @@ r/min，同样的，在时速40km/h的时候发动机转速一定是接近2700�
 </div>
 </div>
 
-<div id="outline-container-orgdf2d070" class="outline-3">
-<h3 id="orgdf2d070"><span class="section-number-3">4.4</span> 发动机制动</h3>
-<div class="outline-text-3" id="text-4-4">
+<div id="outline-container-org596a3a6" class="outline-3">
+<h3 id="org596a3a6"><span class="section-number-3">5.4</span> 发动机制动</h3>
+<div class="outline-text-3" id="text-5-4">
 <p>
 当车辆处于低档位高转速时，较高的转速会带来发动机内部活塞、连接、曲轴的摩擦阻力增大，如果放开油门，那么发动机的转速在摩擦阻力之下向低转速区间回落，同时给车轮施加一个明显的阻力，使车辆减速，这就是发动机制动。<br />
 </p>
@@ -1248,9 +1269,9 @@ r/min，同样的，在时速40km/h的时候发动机转速一定是接近2700�
 </div>
 
 
-<div id="outline-container-orgbcd1a49" class="outline-3">
-<h3 id="orgbcd1a49"><span class="section-number-3">4.5</span> 两脚离合换档</h3>
-<div class="outline-text-3" id="text-4-5">
+<div id="outline-container-org108616e" class="outline-3">
+<h3 id="org108616e"><span class="section-number-3">5.5</span> 两脚离合换档</h3>
+<div class="outline-text-3" id="text-5-5">
 <p>
 前面已经讲过，在换档时，踩下离合后，通过挂档动作，使得输出轴与某个档位的从动轮进行固定起来，但是在固定时，这两者具有不一样的转速(因为目标档位与当前档位齿比不同)，所以要通过同步器进行摩擦，使得两者转速一致并固定起来保持相同转速运转。<br />
 </p>
@@ -1269,9 +1290,9 @@ r/min，同样的，在时速40km/h的时候发动机转速一定是接近2700�
 </div>
 </div>
 
-<div id="outline-container-org47d55c6" class="outline-3">
-<h3 id="org47d55c6"><span class="section-number-3">4.6</span> 无离合换档</h3>
-<div class="outline-text-3" id="text-4-6">
+<div id="outline-container-org7896ab0" class="outline-3">
+<h3 id="org7896ab0"><span class="section-number-3">5.6</span> 无离合换档</h3>
+<div class="outline-text-3" id="text-5-6">
 <p>
 这种换档方式比较难于掌握，也需要驾驶者在转速匹配上花费更多的精力，它会转速匹配的精确度要求比较高，这种技能的唯一用处是在路途中离合器突然出问题了，又不方便立刻维修，那么它可以派上用场。<br />
 </p>
@@ -1288,9 +1309,9 @@ r/min，同样的，在时速40km/h的时候发动机转速一定是接近2700�
 </div>
 
 
-<div id="outline-container-orgd9eebca" class="outline-2">
-<h2 id="orgd9eebca"><span class="section-number-2">5</span> 跟趾</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-org7c70029" class="outline-2">
+<h2 id="org7c70029"><span class="section-number-2">6</span> 跟趾</h2>
+<div class="outline-text-2" id="text-6">
 <p>
 跟趾其实就是在刹车减速的同时完成降档补油的操作，它的使用场景主要是用于快速过弯，临近弯道，需要减速，但为了在出弯时有足够的驱动力加速，需要在刹车减速的同时降档。<br />
 </p>
@@ -1300,18 +1321,18 @@ r/min，同样的，在时速40km/h的时候发动机转速一定是接近2700�
 </p>
 </div>
 
-<div id="outline-container-org703c56a" class="outline-3">
-<h3 id="org703c56a"><span class="section-number-3">5.1</span> 跟趾降档</h3>
-<div class="outline-text-3" id="text-5-1">
+<div id="outline-container-orgba9d9f9" class="outline-3">
+<h3 id="orgba9d9f9"><span class="section-number-3">6.1</span> 跟趾降档</h3>
+<div class="outline-text-3" id="text-6-1">
 <p>
 在过弯时，一边刹车减速一边补油降档，先踩刹车减速，刹车踏板保持一定的压力，然后左脚踩下离合，右脚掌保持刹车踏板的压力，同时右脚跟点一下油门抬升发动机转速到目标档位所需转速，同时手上完成换档操作，然后释放离合和刹车，大油门加速出弯。<br />
 </p>
 </div>
 </div>
 
-<div id="outline-container-org6cf39f1" class="outline-3">
-<h3 id="org6cf39f1"><span class="section-number-3">5.2</span> 跟趾起步</h3>
-<div class="outline-text-3" id="text-5-2">
+<div id="outline-container-org27f2c5d" class="outline-3">
+<h3 id="org27f2c5d"><span class="section-number-3">6.2</span> 跟趾起步</h3>
+<div class="outline-text-3" id="text-6-2">
 <p>
 跟趾起步可以用于平路也可以用于上坡起步，而且可以有效防止后溜的问题，方法跟过弯的时候一样，以上坡起步为例，在空档怠速手刹拉起的状态下，踩住刹车释放手刹，踩下离合，然后右脚掌保持住刹车，右脚跟给油到2000-3000r/min并保持住，左脚慢松离合到结合点(由于转速不低不会熄火)，然后右脚掌从刹车直接挪到油门上并松离合，完成坡道起步。<br />
 </p>
@@ -1330,11 +1351,32 @@ r/min，同样的，在时速40km/h的时候发动机转速一定是接近2700�
 </div>
 </div>
 </div>
+
+<div id="outline-container-orgb3ea3b3" class="outline-2">
+<h2 id="orgb3ea3b3"><span class="section-number-2">7</span> 后记</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+如果您觉得本文对您小有帮助，不妨小小的捐助一下，:-)<br />
+</p>
+
+
+<div class="figure">
+<p><img src="../image/car/weixin-cash-code.png" alt="weixin-cash-code.png" /><br />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="../image/car/ali-cash-code.jpg" alt="ali-cash-code.jpg" /><br />
+</p>
+</div>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="date">&#26085;&#26399;: 2019-05-16</p>
 <p class="author">&#20316;&#32773;: zhcosin</p>
-<p class="date">Created: 2019-11-27 周三 20:09</p>
+<p class="date">Created: 2020-05-11 周一 11:14</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
